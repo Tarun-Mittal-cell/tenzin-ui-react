@@ -1,0 +1,43 @@
+.cta {
+  padding: 100px 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  color: #fff;
+}
+
+.cta h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cta input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #ff5f1f;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff7f50;
+}

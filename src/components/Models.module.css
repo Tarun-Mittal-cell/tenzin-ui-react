@@ -1,0 +1,36 @@
+.models {
+  padding: 100px 0;
+  background-color: #111;
+  color: #fff;
+}
+
+.models h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.modelsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.model {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.model h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.model p {
+  font-size: 16px;
+}

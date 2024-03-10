@@ -1,0 +1,43 @@
+.about {
+  padding: 100px 0;
+  background-color: #111;
+  color: #fff;
+}
+
+.about h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.aboutContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.founder {
+  flex: 1;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.founder img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.companyInfo {
+  flex: 2;
+}
+
+.companyInfo p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
